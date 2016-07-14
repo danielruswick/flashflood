@@ -36,7 +36,7 @@ class FlashFlooder():
         if duration:
             flood_opts.extend(['-t', str(duration)])
         # 0 will replay live, a positive number will play at that number of mbit, and a negative number or null will replay at line rate
-        if speed == 0:
+        if int(speed) == 0:
             flood_opts.append('-R')
         elif speed > 0:
             flood_opts.extend(['-w', str(speed) + 'm'])
