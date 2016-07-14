@@ -1,0 +1,76 @@
+body {
+  padding-top: 60px;
+}
+label {
+    display: block;
+    font-weight: normal;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+.slider-selection.tick-slider-selection {
+    background: #f7f7f7 !important;
+}
+
+.slider-tick.round.in-selection {
+    background: #dadada;
+}
+.form {
+    text-align: center;
+    margin-top: 100px;
+    border: 1px solid #d6d6d6;
+    padding: 62px 0;
+    border-radius: 4px;
+    margin-top:0;
+}
+
+.slider-tick-label {
+    font-weight: normal;
+}
+h1{
+    font-weight: lighter;
+}
+#flood-duration {
+    width: 40%;
+    display: inline-block;
+    position: relative;
+    right: -75px;
+    vertical-align: middle;
+    font-size: 1.4em;
+}
+
+div#computed-duration-container {
+    display: inline-block;
+    width: 150px;
+    position: relative;
+    right: -75px;
+    vertical-align: middle;
+}
+
+div#flood-status {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+span.indicator {
+    float: left;
+    font-size: 1.4em;
+    line-height: 1em;
+}
+
+.active{
+    color: green !important;
+    border-color: green !important;
+}
+.initialized{
+    color: #31b9ff !important;
+    border-color: #31b9ff !important;
+}
+.killed{
+    color: red !important;
+    border-color: red !important;
+}
+.decompressing{
+    color: #ed3cff !important;
+    border-color: #ed3cff !important;
+}
