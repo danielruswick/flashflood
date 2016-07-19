@@ -4,13 +4,13 @@
                 minutes = 0
                 seconds = 0
 
-                if(h = /(\d{1,2})\W?(hour(s)?|h)(\b)/g.exec(exp)){
+                if(h = /(\d)\W?(hour(s)?|h)(\b)/g.exec(exp)){
                     hours += parseInt(h[1]);
                 }
-                if(h = /(\d{1,3})\W?(minute(s)?|m|min)(\b)/g.exec(exp)){
+                if(h = /(\d)\W?(minute(s)?|m|min)(\b)/g.exec(exp)){
                      minutes += parseInt(h[1]);
                 }
-                if(h = /(\d{1,3})\W?(second(s)?|s|sec)(\b)/g.exec(exp)){
+                if(h = /(\d)\W?(second(s)?|s|sec)(\b)/g.exec(exp)){
                      seconds += parseInt(h[1]);
                 }
                 if(h = /([a-z]+)\W?(hour(s)?|h)(\b)/g.exec(exp)){
